@@ -10,12 +10,25 @@
     <h1>Authentification à 2 facteurs</h1>
     <p>Entrer le code à 6 chiffres généré par votre application</p>
     <form action="" method="get">
-        <input type="number">
-        <input type="number">
-        <input type="number">
-        <input type="number">
-        <input type="number">
-        <input type="number">
+        <div class="code-input">
+            <input type="number" min="0" max="9">
+        </div>
+        <div class="code-input">
+            <input type="number"  min="0" max="9">
+        </div>
+        <div class="code-input">
+            <input type="number"  min="0" max="9">
+        </div>
+        <div class="code-input">
+            <input type="number"  min="0" max="9">
+        </div>
+        <div class="code-input">
+            <input type="number"  min="0" max="9">
+        </div>
+        <div class="code-input">
+            <input type="number"  min="0" max="9">
+        </div>  
     </form>
+    <button type="submit">Envoyer</button>
 </body>
 </html>
